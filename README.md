@@ -103,3 +103,8 @@ Use this README and run_backend.py as the release entry point.
 ## GPU notebook
 
 Open notebooks/gpu_backend.ipynb in Kaggle or Colab for the clean setup and startup cells. An HTTPS tunnel must be configured separately for desktop access. 
+
+## Documentation
+
+- [Architecture and models](docs/ARCHITECTURE.md)
+- [Recorded evaluation](docs/EVALUATION.md)
