@@ -1,0 +1,42 @@
+# Credentials
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+secrets.json
+*.pem
+*.key
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+node_modules/
+
+# Runtime outputs and model weights
+results/
+checkpoints/
+.cache/
+models/
+VisionFind_models/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.bin
+*.log
+*.zip
+*.tar
+*.gz
+
+# Private recordings and bulk evaluation data
+*.mp3
+data/evaluation/
+
+# Operating systems
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+{
+  "clip_model": "openai/clip-vit-base-patch32",
+  "clip_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "vlm_model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "vlm_revision": "66285546d2b821cf421d4f5eb2576359d3770cd3"
+}

@@ -1,0 +1,15 @@
+# Install a compatible CUDA torch/torchvision pair separately.
+transformers==4.57.6
+huggingface-hub==0.36.0
+gradio==5.49.1
+av==19.0.0
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart==0.0.20
+httpx==0.28.1
+faster-whisper==1.2.1
+numpy>=2.0,<3
+pandas>=2.2,<3
+Pillow==11.3.0
+matplotlib>=3.9,<4
+opencv-python-headless>=4.8,<5
