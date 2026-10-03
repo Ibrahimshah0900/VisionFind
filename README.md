@@ -56,7 +56,7 @@ Detector and speech weights download separately when needed.
 
 ## Local interface
 
-The frontend package will be added under frontend/ before release.
+The desktop interface is included under frontend/.
 Follow frontend/README.md for Windows setup.
 
 The local Python proxy keeps the backend token out of browser code.
@@ -104,10 +104,14 @@ Fresh model startup through run_backend.py remains unverified.
 - data/index/: six-image demonstration index.
 - data/sample_images/: images referenced by the index.
 - docs/: existing tests, development notes, and evaluation scripts.
-- frontend/: local interface, to be added before release.
+- frontend/: local desktop interface.
 
 Model weights, credentials, private recordings, user uploads,
 large evaluation datasets, and generated results are excluded.
 
 Development notes contain historical and environment-specific instructions.
 Use this README and run_backend.py as the release entry point.
+
+## GPU notebook
+
+Open notebooks/gpu_backend.ipynb in Kaggle or Colab for the clean setup and startup cells. An HTTPS tunnel must be configured separately for desktop access. Fresh GPU startup remains unverified.
