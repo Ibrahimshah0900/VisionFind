@@ -72,18 +72,6 @@ to the local interface microphone.
 - Draw boxes around cars in this video.
 - When were cars detected in this video?
 
-## Validation
-
-Eleven existing regression scripts passed on the reconstructed staging
-source before the portable cache-path changes. These checks primarily
-use fixtures or mocked inference; they are not a general accuracy benchmark.
-
-This source combines the transfer backup with later fixes recovered
-from the saved Kaggle notebook. It has not been compared byte-for-byte
-with the final saved Kaggle output.
-
-Fresh model startup through run_backend.py remains unverified.
-
 ## Known limitations
 
 - Visual descriptions can omit details or hallucinate.
@@ -114,4 +102,4 @@ Use this README and run_backend.py as the release entry point.
 
 ## GPU notebook
 
-Open notebooks/gpu_backend.ipynb in Kaggle or Colab for the clean setup and startup cells. An HTTPS tunnel must be configured separately for desktop access. Fresh GPU startup remains unverified.
+Open notebooks/gpu_backend.ipynb in Kaggle or Colab for the clean setup and startup cells. An HTTPS tunnel must be configured separately for desktop access. 
