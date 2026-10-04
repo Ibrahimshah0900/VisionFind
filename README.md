@@ -2,16 +2,22 @@
 
 # VisionFind
 
-A conversational computer vision project for image search, visual questions,
-object detection, and processed video annotations.
+A working multimodal AI system for conversational image search, visual question answering,
+multi-image reasoning, object localization/detection, and processed video annotations.
 
-Built with CLIP, Qwen2.5-VL, PyTorch, Torchvision, Gradio, and FastAPI.
-A local desktop chat interface connects to the GPU backend through a Python proxy.
+Built with CLIP, Qwen2.5-VL, PyTorch, Torchvision, OpenCV, and FastAPI.
+A local desktop chat interface connects through a Python proxy to an authenticated,
+queued GPU inference backend.
+
+![VisionFind working demo](docs/visionfind-demo.svg)
+
+> **Working demo:** the interface above is connected to the backend and running successfully.
 
 ## Features
 
-- Describe and compare uploaded images.
-- Answer visual questions and search uploaded images using CLIP.
+- Describe and compare uploaded images with Qwen2.5-VL.
+- Search uploaded image collections with CLIP-based semantic retrieval.
+- Answer visual questions over retrieved or explicitly selected images.
 - Attach up to ten images per conversation.
 - Detect people, faces, and supported objects with annotated results.
 - Process short videos with object boxes, detection counts, and timestamps.
@@ -105,6 +111,13 @@ Use this README and run_backend.py as the release entry point.
 ## GPU notebook
 
 Open notebooks/gpu_backend.ipynb in Kaggle or Colab for the clean setup and startup cells. An HTTPS tunnel must be configured separately for desktop access. 
+
+## Recorded evaluation
+
+The repository documents a small COCO128 retrieval baseline of **14/20 top-1 (70%)**
+and **17/20 top-3 (85%)** across two disjoint ten-image collections. These are
+retrieval results only, not a general system-accuracy claim. See the evaluation
+notes for limitations and the separate review of VLM descriptions.
 
 ## Documentation
 
