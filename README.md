@@ -9,7 +9,7 @@ Built with CLIP, Qwen2.5-VL, PyTorch, Torchvision, OpenCV, and FastAPI.
 A local desktop chat interface connects through a Python proxy to an authenticated,
 queued GPU inference backend.
 
-![VisionFind working demo](docs/visionfind-demo.png)
+![VisionFind working demo](https://github.com/Ibrahimshah0900/VisionFind/blob/main/docs/visionfind-demo.png?raw=true)
 
 > **Working demo:** the interface above is connected to the backend and running successfully.
 
